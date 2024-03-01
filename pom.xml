@@ -34,6 +34,20 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+    <scm>
+        <developerConnection>
+            scm:git@github.com:letienlocvn/sfg-pet-clinic-practice.git
+        </developerConnection>
+    </scm>
 </project>
