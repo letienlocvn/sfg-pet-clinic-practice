@@ -1,4 +1,7 @@
 package loclt.sfp.sfqpetclinicpractice.model;
 
-public class Vet {
+public class Vet extends Person {
+    public Vet(String firstName, String lastName) {
+        super(firstName, lastName);
+    }
 }
